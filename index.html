@@ -302,11 +302,11 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <template x-for="(product, index) in [
                     { name: 'Original + Nasi', price: '13.000', image: 'images/home1.jpg', popular: true },
-                    { name: 'Saus Keju + Nasi', price: '13.000', image: 'images/home2.jpg', popular: false },
+                    { name: 'Saus Keju + Nasi', price: '13.000', image: 'images/home2.jpg', popular: true },
                     { name: 'Saus Sadis + Nasi', price: '13.000', image: 'images/home3.jpg', popular: true },
-                    { name: 'Saus Lada Hitam + Nasi', price: '13.000', image: 'images/home4.jpg', popular: false },
-                    { name: 'Saus BBQ Spicy + Nasi', price: '13.000', image: 'images/home5.jpg', popular: false },
-                    { name: 'Saus Teriyaki + Nasi', price: '13.000', image: 'images/home6.jpg', popular: false }
+                    { name: 'Saus Lada Hitam + Nasi', price: '13.000', image: 'images/home4.jpg', popular: true },
+                    { name: 'Saus BBQ Spicy + Nasi', price: '13.000', image: 'images/home5.jpg', popular: true },
+                    { name: 'Saus Teriyaki + Nasi', price: '13.000', image: 'images/home6.jpg', popular: true }
                 ]" :key="index">
                     <div class="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-lg card-hover border border-slate-200 dark:border-slate-700"
                          data-aos="fade-up" x-bind:data-aos-delay="index * 100">
